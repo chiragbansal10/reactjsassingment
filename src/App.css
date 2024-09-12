@@ -1,0 +1,131 @@
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header Section */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+}
+
+.header-left .menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header-center .search-input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.dashboard-main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.action-buttons-container {
+  display: flex;
+  gap: 15px;
+}
+
+.main-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
+.dashboard-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 2; 
+}
+
+.right-section {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.widget-container {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.widget-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.raise-ticket-button {
+  background-color: #4318ff; 
+  color: white; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px; 
+  width: 150px;
+}
+
+.raise-ticket-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

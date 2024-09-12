@@ -1,0 +1,54 @@
+
+  .chart-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chart-legend {
+    display: flex;
+    
+    
+    margin-top: 20px;
+  }
+  
+  .chart-legend div {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .chart-legend div span {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  .legend-active {
+    background-color: #00ff00;
+  }
+  
+  .legend-new {
+    background-color: #ffff00;
+  }
+  
+  .legend-removed {
+    background-color: #ff0000;
+  }
+  .chart-item {
+    flex: 1;  
+    margin: 0 10px;  
+  }
+  .chart-wrapper {
+    display: flex;  
+    
+    width: 900px;
+  }

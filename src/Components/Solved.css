@@ -1,0 +1,124 @@
+
+   /* Widget Container */
+   .widget-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  
+  .widget-item {
+   
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  }
+  
+ 
+  button {
+    border-radius: 20px; 
+    padding: 10px 25px; 
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid;  
+    cursor: pointer;
+  }
+  
+ 
+  .escalated-buttonsolve {
+    background-color: #e6f5eb; 
+    border-color:#4eb674; 
+    color:#029738;  
+  }
+  
+  
+  /* Open Button */
+  .open-buttonsolve {
+    background-color: #e6f5eb;
+    border-color: #4eb674; 
+    color: #029738;  
+  }
+  
+  .open-buttonsolve:hover {
+    background-color: #5bc0de;  
+    color: white;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name h4 {
+    margin: 0;
+  }
+  
+
+  .button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .tech-error-button {
+    background-color: #fff3f2; 
+    border-color:#ff9f99; 
+    color: #2f2924; 
+  }
+  
+  .tech-error-button:hover {
+    background-color: #ff9f99; 
+    color: #2f2924;
+  }
+  
+  /* Healthcare Button */
+  .healthcare-button {
+    background-color: #ece8ff; 
+    border-color: #6d4cff; 
+    color: #2f2924; 
+  }
+  
+  .healthcare-button:hover {
+    background-color: #5cb85c;  
+    color: #2f2924;
+  }
+  .view-all-button {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px; 
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid; 
+    cursor: pointer;
+  }
+  
+  .view-all-button:hover {
+    background-color: #31b0d5;
+    border-color: #31b0d5;
+    color: white;
+  }
+  .support-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .support-header h4 {
+    margin: 0;
+  }
